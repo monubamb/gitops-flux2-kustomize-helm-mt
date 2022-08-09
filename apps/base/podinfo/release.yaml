@@ -5,10 +5,10 @@ metadata:
   namespace: cluster-config
 spec:
   targetNamespace: podinfo
-  releaseName: podinfo1
+  releaseName: podinfo
   chart:
     spec:
-      chart: podinfo1
+      chart: podinfo
       sourceRef:
         kind: HelmRepository
         name: podinfo
